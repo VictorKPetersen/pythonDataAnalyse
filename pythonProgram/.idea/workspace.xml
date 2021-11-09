@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6a6281ec-6972-44fb-b251-65ddc706cf29" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +62,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>2</line>
+          <line>23</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
