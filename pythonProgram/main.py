@@ -7,6 +7,7 @@ def main():
 
     print(f"Smallest number is {calc1.minNumber} \nLargest number is {calc1.maxNumber}")
     print(f"The most common number is {calc1.mostCommonNumber}")
+    print(f"There are {calc1.observations} observations")
     print(f"The average number is {calc1.averageNumber}")
     print(f"The varians is {calc1.varians}")
     print(f"the spread is {calc1.spread}")

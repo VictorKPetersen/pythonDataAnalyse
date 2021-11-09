@@ -2,15 +2,17 @@ from math import pow, sqrt
 from statistics import mode
 
 class Calculator:
-    minNumber = float()
-    maxNumber = float()
-    mostCommonNumber = float()
-    averageNumber = float()
-    varians = float()
-    spread = float()
 
     def __init__(self, numList):
         self.numList = numList
+
+        self.minNumber = float()
+        self.maxNUmber = float()
+        self.mostCommonNumber = float()
+        self.averageNumber = float()
+        self.varians = float()
+        self.spread = float()
+        self.observations = len(numList)
 
         self.sortList()
         self.findMinMax()
